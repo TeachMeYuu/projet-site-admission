@@ -1,0 +1,152 @@
+/*------------------------------------------------ FONT SECTION ------------------------------------------------*/
+
+@font-face { /* Font AstronoMax */
+  font-family: 'ankh_sanctuaryregular';
+  src: url('fonts/ankhsanctuary-nrox4-webfont.woff2') format('woff2'),
+       url('fonts/ankhsanctuary-nrox4-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face { /* Font Jedi */
+  font-family: 'Star Jedi';
+  src: url('fonts/StarJedi.woff2') format('woff2'),
+      url('fonts/StarJedi.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+/*------------------------------------------------ BODY SECTION ------------------------------------------------*/
+
+body {
+  height: 15%;
+  background: linear-gradient(to top, rgb(0, 0, 0),60%, transparent), url("https://zupimages.net/up/23/15/hely.jpg"); /*Effet dégradé avec image*/
+  background-size: cover;
+  font-family: 'Oswald', sans-serif;
+}
+
+/*------------------------------------------------ HEADER SECTION ------------------------------------------------*/
+
+.header h1{ /* ASTRONOMAX */
+  display: flex;
+  flex-wrap: wrap;
+  color: rgb(255, 255, 255);
+  justify-content: center;
+  font-size: 55px;
+  font-family: ankh_sanctuaryregular;
+  letter-spacing: 5px;
+}
+
+.menu {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0;
+  font-family: 'Star Jedi';
+  font-size: 13px;
+  background-position: center;
+  background-size: cover;
+  justify-content: center;
+}
+
+.menu li {
+  list-style-type: none; /* Supprime les puces de <li> */
+}
+
+.menu a {
+  display: block;
+  min-width: 155px;
+  margin: 50px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding: 0.6em 0;
+  text-align: center;
+  background-color: #0000004f;
+  color: white;
+  text-decoration: none; /* Supprime l'underline */
+  border: 1px solid #ffffff;
+  border-radius: 4px;
+  transition: all 0.75s; /* Effet de dégradé du hover au survol des menus */
+}
+
+.menu a:hover {
+  color: rgb(255, 255, 255);
+  background-color: rgb(0, 36, 78);
+  border-color: rgb(255, 255, 255);
+}
+
+/*------------------------------------------------ MAIN SECTION ------------------------------------------------*/
+
+.actu-spa .actu-spa-tittle h2 { /* Titre SPACE ACTU */
+  font-family: 'Star Jedi';
+  text-align: center;
+  text-decoration: underline;
+  font-size: 40px;
+  letter-spacing: 8px;
+  margin-left: 20px;
+  color: rgb(255, 255, 255);
+}
+
+.articles {
+  font-family: 'Roboto', sans-serif;
+  margin-top: 30px;
+  margin-left: 25px;
+}
+
+.articles .article { /* Pamramètre par "default" de tout les articles (text + image) */
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.articles .article .image-actu img { /* Taille de l'image de l'article */
+  height: 300px;
+  width: 500px;
+  margin-bottom: 30px;
+  border-radius: 10px;
+  opacity: 0.8;
+}
+
+.articles .article .text-actu .date {
+  color: rgb(238, 194, 141);
+}
+
+.articles .article .text-actu a { /* Titre de l'article */
+  font-size: 35px;
+  font-weight: bold;
+  color: #ffffff;
+  text-decoration: none;
+  transition: all 1s;
+}
+
+.articles .article .text-actu a:hover { /* Hover des titres des articles */
+  color: rgba(3, 204, 250, 0.605);
+}
+
+.articles .article .text-actu { /* Description de l'article */
+  max-width: 50%;
+  text-align: justify;
+  margin-left: 30px;
+  font-size: 18px;
+  color: #ffffff;
+}
+
+.articles .article .text-actu .auteur { /* Auteur de l'article */
+  font-size: 15px;
+  text-decoration: underline;
+}
+
+/*------------------------------------------------ FOOTER SECTION ------------------------------------------------*/
+
+footer {
+  margin-top: 30px;
+  display: flex;
+  flex-wrap: wrap;
+  color: #ffffff;
+}
+
+footer h2 {
+  font-family: 'Crimson Text', serif;
+  font-style: italic;
+  font-weight: lighter;
+  font-size: 22px;
+}

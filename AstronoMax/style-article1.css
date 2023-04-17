@@ -1,0 +1,173 @@
+/*------------------------------------------------ FONT SECTION ------------------------------------------------*/
+
+@font-face { /* Font AstronoMax */
+    font-family: 'ankh_sanctuaryregular';
+    src: url('fonts/ankhsanctuary-nrox4-webfont.woff2') format('woff2'),
+         url('fonts/ankhsanctuary-nrox4-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face { /* Font Jedi */
+  font-family: 'Star Jedi';
+  src: url('fonts/StarJedi.woff2') format('woff2'),
+      url('fonts/StarJedi.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+/*------------------------------------------------ BODY PAGE ------------------------------------------------*/
+
+body {
+  position: relative;
+  height: 30%;
+  /*background-image: linear-gradient(to bottom, #1c1e20, #18181a, #131213, #0b0a0b, #000000);*/
+  background-image: linear-gradient(to top, #000000, #361e20, #66382e, #925935, #b58237);
+  background-size: cover;
+  font-family: 'Oswald', sans-serif;
+}
+
+/*------------------------------------------------ HEADER ------------------------------------------------*/
+
+.header h1{ /* ASTRONOMAX */
+  display: flex;
+  flex-wrap: wrap;
+  color: rgb(255, 255, 255);
+  justify-content: center;
+  font-size: 55px;
+  font-family: ankh_sanctuaryregular;
+  letter-spacing: 5px;
+}
+
+.menu {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0;
+  font-family: 'Star Jedi';
+  font-size: 13px;
+  background-position: center;
+  background-size: cover;
+  justify-content: center;
+}
+
+.menu li {
+  list-style-type: none; /* Supprime les puces de <li> du menu */
+}
+
+.menu a {
+  display: block;
+  min-width: 155px;
+  margin: 50px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding: 0.6em 0;
+  text-align: center;
+  background-color: #0000004f;
+  color: white;
+  text-decoration: none; /* Supprime le soulignement */
+  border: 1px solid #ffffff;
+  border-radius: 4px;
+  transition: all 0.75s; /* Effet de dégradé du hover au survol des menus */
+}
+
+.menu a:hover {
+  color: rgb(255, 255, 255);
+  background-color: rgb(255, 183, 0);
+  border-color: rgb(255, 255, 255);
+}
+
+/*------------------------------------------------ PREMIERE PARTIE PAGE ------------------------------------------------*/
+
+.article1 .title-article { /* Titre de l'article */
+  display: flex;
+  flex-wrap: wrap;
+  font-weight: bold;
+  font-size: 25px;
+  font-family: 'Star Jedi';
+  letter-spacing: 10px;
+  color: #ffffff;
+}
+
+.article1 .text-article p { /* 1er Paragraphe de l'article */
+  flex-wrap: wrap;
+  margin-right: 5%;
+  margin-top: 5px;
+  text-align: justify;
+  color: #ffffff;
+  font-size: 25px;
+}
+
+.article1 .text-article img { /* Image 1 de l'article */
+  display: block;
+  width: 50%;
+  margin: auto;
+  border-radius: 25px;
+}
+
+.article1 .text-article figurecaption { /* Légende de l'image 1 */
+  display: flex;
+  flex-wrap: wrap;
+  font-style: italic;
+  text-align: justify;
+  text-align: center;
+  margin-left: 25%;
+  margin-right: 25%;
+  font-size: 15px;
+  color: #929292;
+}
+
+/*------------------------------------------------ DEUXIEME PARTIE PAGE ------------------------------------------------*/
+
+.article1 .deux-part-article p { /* Paramètre pour tous les paragraphes de l'article */
+  display: flex;
+  flex-wrap: wrap;
+  text-align: justify;
+  margin-left: 25%;
+  margin-right: 25%;
+  color: #ffffff;
+}
+
+.article1 .deux-part-article img { /* Paramètre pour toutes les images de l'article */
+  display: block;
+  width: 50%;
+  margin: auto;
+  border-radius: 25px;
+}
+
+.article1 .deux-part-article figurecaption { /* Paramètre pour toutes les légendes des photos de l'article */
+  display: flex;
+  font-style: italic;
+  text-align: justify;
+  text-align: center;
+  flex-wrap: wrap;
+  width: 50%;
+  margin: auto;
+  font-size: 15px;
+  color: #929292;
+}
+
+.article1 .deux-part-article h2 { /* Paramètre pour tout les titres <h2> de l'article */
+  display: flex;
+  flex-wrap: wrap;
+  width: 50%;
+  margin: auto;
+  font-family: 'Star Jedi';
+  letter-spacing: 5px;
+  color: #ffffff;
+}
+
+/*------------------------------------------------ FOOTER SECTION ------------------------------------------------*/
+
+.goenhaut a {  
+  display: block;
+  position: sticky;
+  text-align: center;
+  flex-wrap: wrap;
+  color: #ffffff;
+  transition: all 0.75s;
+}
+
+.goenhaut a:hover {
+  color: #ed8a0a;
+}
