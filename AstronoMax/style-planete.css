@@ -139,12 +139,15 @@ body {
   color: #ffffff;
 }
 
-.planetes .mercure-planete video { /* Vidéo */
+.planetes .mercure-planete img { /* GIF */
   position: relative;
   flex-wrap: wrap;
-  left: 800px;
-  bottom: 380px;
+  width: 40%;
+  border-radius: 15px;
+  left: 840px;
+  bottom: 370px;
 }
+
 
 /*------------------------------------------------ VENUS SECTION ------------------------------------------------*/
 
@@ -180,11 +183,13 @@ body {
   color: #ffffff;
 }
 
-.planetes .venus-planete video {
+.planetes .venus-planete img { /* GIF */
   position: relative;
   flex-wrap: wrap;
-  left: 800px;
-  bottom: 380px;
+  width: 52%;
+  border-radius: 15px;
+  left: 750px;
+  bottom: 420px;
 }
 
 /*------------------------------------------------ TERRE SECTION ------------------------------------------------*/
@@ -221,13 +226,13 @@ body {
   color: #ffffff;
 }
 
-.planetes .terre-planete img { /* Video */
+.planetes .terre-planete img { /* GIF */
   position: relative;
   flex-wrap: wrap;
-  width: 18%;
+  width: 30%;
   border-radius: 15px;
-  left: 890px;
-  bottom: 340px;
+  left: 920px;
+  bottom: 380px;
 }
 
 /*------------------------------------------------ MARS SECTION ------------------------------------------------*/
@@ -265,12 +270,15 @@ body {
   color: #ffffff;
 }
 
-.planetes .mars-planete video { /* Vidéo */
+.planetes .mars-planete img { /* GIF */
   position: relative;
   flex-wrap: wrap;
-  left: 800px;
+  width: 22%;
+  border-radius: 15px;
+  left: 985px;
   bottom: 380px;
 }
+
 
 /*------------------------------------------------ JUPITER SECTION ------------------------------------------------*/
 
@@ -307,11 +315,13 @@ body {
   color: #ffffff;
 }
 
-.planetes .jupiter-planete video { /* Vidéo */
+.planetes .jupiter-planete img { /* GIF */
   position: relative;
   flex-wrap: wrap;
-  left: 800px;
-  bottom: 380px;
+  width: 26%;
+  border-radius: 15px;
+  left: 950px;
+  bottom: 400px;
 }
 
 /*------------------------------------------------ SATURNE SECTION ------------------------------------------------*/
@@ -349,11 +359,13 @@ body {
   color: #ffffff;
 }
 
-.planetes .saturne-planete video { /* Vidéo */
+.planetes .saturne-planete img { /* GIF */
   position: relative;
   flex-wrap: wrap;
-  left: 800px;
-  bottom: 380px;
+  width: 50%;
+  border-radius: 15px;
+  left: 790px;
+  bottom: 400px;
 }
 
 /*------------------------------------------------ URANUS SECTION ------------------------------------------------*/
@@ -391,11 +403,13 @@ body {
   color: #ffffff;
 }
 
-.planetes .uranus-planete video { /* Vidéo */
+.planetes .uranus-planete img { /* GIF */
   position: relative;
   flex-wrap: wrap;
-  left: 800px;
-  bottom: 380px;
+  width: 35%;
+  border-radius: 15px;
+  left: 900px;
+  bottom: 420px;
 }
 
 /*------------------------------------------------ NEPTUNE SECTION ------------------------------------------------*/
@@ -433,11 +447,13 @@ body {
   color: #ffffff;
 }
 
-.planetes .neptune-planete video { /* Vidéo */
+.planetes .neptune-planete img { /* GIF */
   position: relative;
   flex-wrap: wrap;
-  left: 800px;
-  bottom: 380px;
+  width: 45%;
+  border-radius: 15px;
+  left: 830px;
+  bottom: 400px;
 }
 
 /*------------------------------------------------ FOOTER SECTION ------------------------------------------------*/
