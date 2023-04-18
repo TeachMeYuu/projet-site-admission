@@ -17,13 +17,18 @@
   font-display: swap;
 }
 
-/*------------------------------------------------ BODY PAGE ------------------------------------------------*/
+/*------------------------------------------------ HTML SECTION ------------------------------------------------*/
+
+html {
+  scroll-behavior: smooth;
+}
+
+/*------------------------------------------------ BODY SECTION ------------------------------------------------*/
 
 body {
   position: relative;
   height: 30%;
-  /*background-image: linear-gradient(to bottom, #1c1e20, #18181a, #131213, #0b0a0b, #000000);*/
-  background-image: linear-gradient(to top, #000000, #361e20, #66382e, #925935, #b58237);
+  background-image: linear-gradient(to bottom, #333124, #2c251d, #211a17, #15100f, #000000);
   background-size: cover;
   font-family: 'Oswald', sans-serif;
 }

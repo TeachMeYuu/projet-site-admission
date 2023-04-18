@@ -1,0 +1,230 @@
+/*------------------------------------------------ FONT SECTION ------------------------------------------------*/
+
+@font-face { /* Font AstronoMax */
+    font-family: 'ankh_sanctuaryregular';
+    src: url('fonts/ankhsanctuary-nrox4-webfont.woff2') format('woff2'),
+         url('fonts/ankhsanctuary-nrox4-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face { /* Font Jedi */
+  font-family: 'Star Jedi';
+  src: url('fonts/StarJedi.woff2') format('woff2'),
+      url('fonts/StarJedi.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+/*------------------------------------------------ HTML SECTION ------------------------------------------------*/
+
+html {
+  scroll-behavior: smooth;
+}
+
+/*------------------------------------------------ BODY SECTION ------------------------------------------------*/
+
+body {
+  position: relative;
+  height: 30%;
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.788),60%, transparent), url("https://zupimages.net/up/23/16/63ym.jpg");
+  background-size: cover;
+  font-family: 'Oswald', sans-serif;
+}
+
+/*------------------------------------------------ HEADER ------------------------------------------------*/
+
+.header h1{ /* ASTRONOMAX */
+  display: flex;
+  flex-wrap: wrap;
+  color: rgb(255, 255, 255);
+  justify-content: center;
+  font-size: 55px;
+  font-family: ankh_sanctuaryregular;
+  letter-spacing: 5px;
+}
+
+.menu {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0;
+  font-family: 'Star Jedi';
+  font-size: 13px;
+  background-position: center;
+  background-size: cover;
+  justify-content: center;
+}
+
+.menu li {
+  list-style-type: none; /* Supprime les puces de <li> du menu */
+}
+
+.menu a {
+  display: block;
+  min-width: 155px;
+  margin: 50px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding: 0.6em 0;
+  text-align: center;
+  background-color: #0000004f;
+  color: white;
+  text-decoration: none; /* Supprime le soulignement */
+  border: 1px solid #ffffff;
+  border-radius: 4px;
+  transition: all 0.75s; /* Effet de dégradé du hover au survol des menus */
+}
+
+.menu a:hover {
+  color: rgb(255, 255, 255);
+  background-color: rgba(102, 1, 1, 0.584);
+  border-color: rgb(255, 255, 255);
+}
+
+/*------------------------------------------------ INSTRUCTION SECTION ------------------------------------------------*/
+
+.instruction h2 { 
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+  justify-content: center;
+  letter-spacing: 5px;
+  font-family: 'Star Jedi';
+  font-size: 35px;
+  color: #ffffff;
+}
+
+.instruction p {
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+  justify-content: center;
+  text-decoration: underline;
+  font-family: 'Roboto';
+  font-size: 22px;
+  color: #ffffff;
+}
+
+/*------------------------------------------------ FIRST PAGE SECTION ------------------------------------------------*/
+
+.without-light { 
+  display: block;
+  flex-wrap: wrap;
+  height: 100vh;
+  border-radius: 30px;
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.788),70%, transparent), url("https://zupimages.net/up/23/16/iqcz.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+/*------------------------------------------------ FIRST TITRE SECTION ------------------------------------------------*/
+
+.without-light h2 { /*---- "MISSION" ----*/
+  display: block;
+  flex-wrap: wrap;
+  padding-top: 2%;
+  margin-bottom: 3%;
+  text-align: center;
+  font-family: 'Star Jedi';
+  letter-spacing: 8px;
+  font-size: 35px;
+  color: #ffffff;
+  opacity: 0;
+  transition: all 1.5s;
+}
+
+.without-light h2:hover {
+  opacity: 1;
+}
+
+/*------------------------------------------------ SECOND TITRE SECTION ------------------------------------------------*/
+
+.without-light h3 { /*---- "OBJECTIF" ----*/
+  display: block;
+  flex-wrap: wrap;
+  margin-bottom: 3%;
+  text-align: center;
+  font-family: 'Star Jedi';
+  letter-spacing: 8px;
+  text-decoration: underline;
+  font-style: italic;
+  font-size: 35px;
+  color: #ffffff;
+  opacity: 0;
+  transition: all 1.5s;
+}
+
+.without-light h3:hover {
+  opacity: 1;
+}
+
+/*------------------------------------------------ PARAGRAPHE SECTION ------------------------------------------------*/
+
+.without-light p {
+  display: block;
+  flex-wrap: wrap;
+  text-align: center;
+  justify-content: center;
+  font-family: 'Roboto', sans-serif;
+  font-size: 30px;
+  margin-bottom: 3%;
+  color: #ffffff;
+  opacity: 0;
+  transition: all 1.5s;
+}
+
+.without-light p:hover {
+  opacity: 1;
+}
+
+/*------------------------------------------------ SKIP SECTION ------------------------------------------------*/
+
+.without-light .accepte-page-skip a { /*---- ACCEPTE ----*/
+  display: block;
+  flex-wrap: wrap;
+  border-style: solid;
+  margin: auto;
+  margin-bottom: 30px;
+  padding: 0.5em 0.5em;
+  text-align: center;
+  justify-content: center;
+  text-decoration: none;
+  font-family: 'Star Jedi';
+  font-size: 15px;
+  letter-spacing: 3px;
+  color: #ffffff;
+  opacity: 0;
+  transition: all 1.5s;
+}
+
+.without-light .accepte-page-skip a:hover { 
+  background-color: rgb(0, 91, 29);
+  border-color: #ffffff;
+  border-radius: 10px;
+  opacity: 1;
+}
+
+.without-light .refuse-page-skip a { /*---- REFUSE ----*/
+  display: block;
+  flex-wrap: wrap;
+  border-style: solid;
+  padding: 0.5em 0.5em;
+  text-align: center;
+  justify-content: center;
+  text-decoration: none;
+  font-family: 'Star Jedi';
+  font-size: 15px;
+  letter-spacing: 3px;
+  color: #ffffff;
+  opacity: 0;
+  transition: all 1.5s;
+}
+
+.without-light .refuse-page-skip a:hover {
+  background-color: rgb(91, 0, 3);
+  border-color: #ffffff;
+  border-radius: 10px;
+  opacity: 1;
+}
