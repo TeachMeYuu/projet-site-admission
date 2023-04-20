@@ -28,7 +28,7 @@ html {
 body {
   position: relative;
   height: 30%;
-  background: linear-gradient(to top, rgba(0, 0, 0, 0.5),100%, transparent), url("https://zupimages.net/up/23/16/agyz.jpg");
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.5),100%, transparent), url("https://zupimages.net/up/23/16/tenh.jpg");
   background-size: cover;
   font-family: 'Oswald', sans-serif;
 }
@@ -46,13 +46,13 @@ body {
 	color: white;
 }
 
-/*------------------------------------------------ MECANICIEN TEXT SECTION ------------------------------------------------*/
+/*------------------------------------------------ INGENIEUR TEXT ------------------------------------------------*/
 
 .chapitre-1 .first-part {
 	display: block;
 	flex-wrap: wrap;
 	padding: 0.1em 0em;
-	background-image: linear-gradient(to right top, #000000, #130508, #1f0a0c, #280d0f, #320f0f);
+	background-image: linear-gradient(to right top, #080808, #052030, #003947, #00523c, #24660a);
 	background-position: center;
 	background-repeat: no-repeat;
 }
@@ -72,6 +72,16 @@ body {
 	margin-left: 15%;
 	margin-right: 20px;
 	text-align: justify;
+	font-family: 'Roboto';
+	font-size: 21px;
+	color: white;
+}
+
+.chapitre-1 .first-part li {
+	display: flex;
+	flex-wrap: wrap;
+	margin-left: 15%;
+	margin-right: 20px;
 	font-family: 'Roboto';
 	font-size: 21px;
 	color: white;

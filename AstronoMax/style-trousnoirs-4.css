@@ -28,14 +28,15 @@ html {
 body {
   position: relative;
   height: 30%;
-  background: linear-gradient(to top, rgba(0, 0, 0, 0.5),100%, transparent), url("https://zupimages.net/up/23/16/agyz.jpg");
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.5),100%, transparent), url("https://zupimages.net/up/23/16/0bbm.jpg");
   background-size: cover;
+  background-position: center;
   font-family: 'Oswald', sans-serif;
 }
   
 /*------------------------------------------------ TITRE CHAPITRE SECTION ------------------------------------------------*/
 
-.chapitre-1 .title h1 {
+.chapitre-2 .title h1 {
 	display: flex;
 	flex-wrap: wrap;
 	text-align: center;
@@ -48,16 +49,16 @@ body {
 
 /*------------------------------------------------ MECANICIEN TEXT SECTION ------------------------------------------------*/
 
-.chapitre-1 .first-part {
+.chapitre-2 .first-part {
 	display: block;
 	flex-wrap: wrap;
 	padding: 0.1em 0em;
-	background-image: linear-gradient(to right top, #000000, #130508, #1f0a0c, #280d0f, #320f0f);
+	background-image: linear-gradient(to right top, #000000, #201112, #381b17, #4e2817, #5f3812);
 	background-position: center;
 	background-repeat: no-repeat;
 }
 
-.chapitre-1 .first-part .commandant {
+.chapitre-2 .first-part .mecanicien {
 	display: flex;
 	flex-wrap: wrap;
 	position: absolute;
@@ -66,7 +67,7 @@ body {
 	width: 13%;
 }
 
-.chapitre-1 .first-part p {
+.chapitre-2 .first-part p {
 	display: flex;
 	flex-wrap: wrap;
 	margin-left: 15%;
@@ -77,18 +78,29 @@ body {
 	color: white;
 }
 
-/*------------------------------------------------ CHOIX COMBI SECTION ------------------------------------------------*/
+.chapitre-2 .first-part li {
+	display: flex;
+	flex-wrap: wrap;
+	margin-left: 15%;
+	margin-right: 20px;
+	font-family: 'Roboto';
+	font-size: 21px;
+	color: white;
+}
 
-.chapitre-1
+
+/*------------------------------------------------ CHOIX PORTE SECTION ------------------------------------------------*/
+
+.chapitre-2
 .text-choix-combi,
 .img-choix-combi {  /*--- PARAMETRE TEXT + IMAGE ---*/
   display: flex;
   align-items: center; 
 }
 
-/*------------------------------------------------ TEXTE COMBI NOIRE ------------------------------------------------*/
+/*------------------------------------------------ TEXTE PORTE BILLY ------------------------------------------------*/
 
-.chapitre-1 .text-choix-combi .text-noir {  /*--- TEXT ---*/
+.chapitre-2 .text-choix-combi .text-noir {  /*--- TEXT ---*/
 	margin-left: 20%;
 	font-size: 30px;
 	font-family: 'Star Jedi';
@@ -96,62 +108,30 @@ body {
 	color: aliceblue;
 }
 
-/*------------------------------------------------ TEXTE COMBI BLANCHE ------------------------------------------------*/
+/*------------------------------------------------ TEXTE PORTE MAX ------------------------------------------------*/
 
-.chapitre-1 .text-choix-combi .text-blanche { /*--- TEXT ---*/
-	margin-left: 37%;
+.chapitre-2 .text-choix-combi .text-blanche { /*--- TEXT ---*/
+	margin-left: 22%;
 	font-size: 30px;
 	font-family: 'Star Jedi';
   letter-spacing: 5px;
 	color: aliceblue;
 }
 
-/*------------------------------------------------ IMAGES COMBI ------------------------------------------------*/
+/*------------------------------------------------ EFFET HOVER IMAGES ------------------------------------------------*/
 
-.chapitre-1 .img-choix-combi a { /*--- ANCHOR ---*/
+.chapitre-2 .img-choix-combi a { /*--- ANCHOR ---*/
   flex: 1;
-	margin-left: 17%;
+	margin-left: 22%;
 	height: auto;
 	opacity: 0.5;
 	transition: all 1s;
 }
 
-.chapitre-1 .img-choix-combi img { /*--- IMAGES ---*/
+.chapitre-2 .img-choix-combi img { /*--- IMAGES ---*/
 	max-width: 280px;
 }
 
-.chapitre-1 .img-choix-combi a:hover { /*--- IMAGES HOVER ---*/
+.chapitre-2 .img-choix-combi a:hover { /*--- IMAGES HOVER ---*/
 	opacity: 1;
-}
-
-/*------------------------------------------------ COMMANDANT SECOND TEXT SECTION ------------------------------------------------*/
-
-.chapitre-1 .second-part { /*--- CONTENEUR TEXTE ---*/
-	display: block;
-	flex-wrap: wrap;
-	margin-top: 3%;
-	padding: 0.3em 0em;
-	background-image: linear-gradient(to right top, #000000, #130508, #1f0a0c, #280d0f, #320f0f);
-	background-position: center;
-	background-repeat: no-repeat;
-}
-
-.chapitre-1 .second-part .commandant {  /*--- IMAGES COMMANDANT ---*/
-	display: flex;
-	flex-wrap: wrap;
-	position: absolute;
-	left: 5px;
-	border-radius: 5px;
-	width: 13%;
-}
-
-.chapitre-1 .second-part p { /*--- PARAGRAPHE ---*/
-	display: flex;
-	flex-wrap: wrap;
-	margin-left: 15%;
-	margin-right: 20px;
-	text-align: justify;
-	font-family: 'Roboto';
-	font-size: 21px;
-	color: white;
 }
