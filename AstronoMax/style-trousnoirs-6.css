@@ -28,14 +28,14 @@ html {
 body {
   position: relative;
   height: 30%;
-  background: linear-gradient(to top, rgba(0, 0, 0, 0.5),100%, transparent), url("https://zupimages.net/up/23/16/tenh.jpg");
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.5),100%, transparent), url("https://zupimages.net/up/23/16/tb21.jpg");
   background-size: cover;
   font-family: 'Oswald', sans-serif;
 }
   
 /*------------------------------------------------ TITRE CHAPITRE SECTION ------------------------------------------------*/
 
-.chapitre-1 .title h1 {
+.chapitre-3 .title h1 {
 	display: flex;
 	flex-wrap: wrap;
 	text-align: center;
@@ -48,16 +48,16 @@ body {
 
 /*------------------------------------------------ INGENIEUR TEXT ------------------------------------------------*/
 
-.chapitre-1 .first-part {
+.chapitre-3 .first-part {
 	display: block;
 	flex-wrap: wrap;
 	padding: 0.1em 0em;
-	background-image: linear-gradient(to right top, #080808, #052030, #003947, #00523c, #24660a);
+	background-image: linear-gradient(to right top, #000000, #130508, #1f0a0c, #280d0f, #320f0f);
 	background-position: center;
 	background-repeat: no-repeat;
 }
 
-.chapitre-1 .first-part .commandant {
+.chapitre-3 .first-part .commandant {
 	display: flex;
 	flex-wrap: wrap;
 	position: absolute;
@@ -66,7 +66,7 @@ body {
 	width: 13%;
 }
 
-.chapitre-1 .first-part p {
+.chapitre-3 .first-part p {
 	display: flex;
 	flex-wrap: wrap;
 	margin-left: 15%;
@@ -77,7 +77,7 @@ body {
 	color: white;
 }
 
-.chapitre-1 .first-part li {
+.chapitre-3 .first-part li {
 	display: flex;
 	flex-wrap: wrap;
 	margin-left: 15%;
@@ -89,7 +89,7 @@ body {
 
 /*------------------------------------------------ PARAMETRE ------------------------------------------------*/
 
-.chapitre-1
+.chapitre-3
 .text-choix-combi,
 .img-choix-combi {  /*--- PARAMETRE TEXT + IMAGE ---*/
   display: flex;
@@ -98,28 +98,28 @@ body {
 
 /*------------------------------------------------ TEXTE PORTE ------------------------------------------------*/
 
-.chapitre-1 .text-choix-combi .text-noir {  /*--- TEXT ---*/
-	margin-left: 38%;
+.chapitre-3 .text-choix-combi .text-noir {  /*--- TEXT ---*/
+	margin-left: 28%;
 	font-size: 30px;
 	font-family: 'Star Jedi';
   letter-spacing: 5px;
 	color: aliceblue;
 }
 
-/*------------------------------------------------ IMAGES COMBI ------------------------------------------------*/
+/*------------------------------------------------ IMAGES PORTE ------------------------------------------------*/
 
-.chapitre-1 .img-choix-combi a { /*--- ANCHOR ---*/
+.chapitre-3 .img-choix-combi a { /*--- ANCHOR ---*/
   flex: 1;
-	margin-left: 40%;
+	margin-left: 33%;
 	height: auto;
 	opacity: 0.5;
 	transition: all 1s;
 }
 
-.chapitre-1 .img-choix-combi img { /*--- IMAGES ---*/
-	max-width: 280px;
+.chapitre-3 .img-choix-combi img { /*--- IMAGES ---*/
+	max-width: 500px;
 }
 
-.chapitre-1 .img-choix-combi a:hover { /*--- IMAGES HOVER ---*/
+.chapitre-3 .img-choix-combi a:hover { /*--- IMAGES HOVER ---*/
 	opacity: 1;
 }
