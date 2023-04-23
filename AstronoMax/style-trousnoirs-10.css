@@ -1,0 +1,154 @@
+/*------------------------------------------------ FONT SECTION ------------------------------------------------*/
+
+@font-face { /* Font AstronoMax */
+  font-family: 'ankh_sanctuaryregular';
+  src: url('fonts/ankhsanctuary-nrox4-webfont.woff2') format('woff2'),
+  url('fonts/ankhsanctuary-nrox4-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+  
+@font-face { /* Font Jedi */
+  font-family: 'Star Jedi';
+  src: url('fonts/StarJedi.woff2') format('woff2'),
+  url('fonts/StarJedi.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+  
+/*------------------------------------------------ HTML SECTION ------------------------------------------------*/
+  
+html {
+  scroll-behavior: smooth;
+}
+  
+/*------------------------------------------------ BODY SECTION ------------------------------------------------*/
+  
+body {
+  position: relative;
+  height: 30%;
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.7),100%, transparent), url("https://zupimages.net/up/23/16/3l4t.jpg");
+  background-size: cover;
+  font-family: 'Oswald', sans-serif;
+}
+  
+/*------------------------------------------------ TITRE CHAPITRE SECTION ------------------------------------------------*/
+
+.chapitre-6 .title h1 { /*--- CHAPITRE 6 ---*/
+	display: flex;
+	flex-wrap: wrap;
+	text-align: center;
+	justify-content: center;
+	font-size: 28px;
+	font-family: 'Star Jedi';
+	letter-spacing: 5px;
+	color: white;
+}
+
+/*------------------------------------------------ INSTRUCTION SECTION ------------------------------------------------*/
+
+.chapitre-6 .text-narratif .instruction { /*--- PARAGRAPHE INSTRUCTION ---*/
+	display: flex;
+	flex-wrap: wrap;
+	margin-left: 15px;
+	margin-right: 15px;
+	text-align: justify;
+  justify-content: center;
+	font-family: 'Roboto';
+	font-size: 20px;
+  text-decoration: underline;
+	color: rgba(255, 0, 0, 0.721);
+}
+
+/*------------------------------------------------ NARATIF TEXTE SECTION ------------------------------------------------*/
+
+.chapitre-6 .periple .periple-1 { /*--- PARAGRAPHE NARATIF 1 ---*/
+	display: flex;
+	flex-wrap: wrap;
+	text-align: center;
+  justify-content: center;
+	font-family: 'Roboto';
+	font-size: 25px;
+  letter-spacing: 2px;
+  font-style: italic;
+	color: white;
+  opacity: 0;
+  transition: all 2s;
+}
+
+.chapitre-6 .periple .periple-1:hover { 
+  opacity: 1;
+}
+
+.chapitre-6 .periple .periple-2 { /*--- PARAGRAPHE NARATIF 2 ---*/
+	display: flex;
+	flex-wrap: wrap;
+	text-align: center;
+  justify-content: center;
+	font-family: 'Roboto';
+	font-size: 25px;
+  letter-spacing: 2px;
+  font-style: italic;
+	color: white;
+  opacity: 0;
+  transition: all 2s;
+}
+
+.chapitre-6 .periple .periple-2:hover { 
+  opacity: 1;
+}
+
+.chapitre-6 .periple .periple-3 { /*--- PARAGRAPHE NARATIF 3 ---*/
+	display: flex;
+	flex-wrap: wrap;
+	text-align: center;
+  justify-content: center;
+	font-family: 'Roboto';
+	font-size: 25px;
+  letter-spacing: 2px;
+  font-style: italic;
+	color: white;
+  opacity: 0;
+  transition: all 2s;
+}
+
+.chapitre-6 .periple .periple-3:hover { 
+  opacity: 1;
+}
+
+.chapitre-6 .periple .periple-4 { /*--- PARAGRAPHE NARATIF 4 ---*/
+	display: flex;
+	flex-wrap: wrap;
+	text-align: center;
+  justify-content: center;
+	font-family: 'Roboto';
+	font-size: 25px;
+  letter-spacing: 2px;
+  font-style: italic;
+	color: white;
+  opacity: 0;
+  transition: all 2s;
+}
+
+.chapitre-6 .periple .periple-4:hover { 
+  opacity: 1;
+}
+
+.chapitre-6 .periple .periple-5 { /*--- PARAGRAPHE NARATIF 5 ---*/
+	display: flex;
+	flex-wrap: wrap;
+	text-align: center;
+  justify-content: center;
+	font-family: 'Roboto';
+	font-size: 25px;
+  letter-spacing: 2px;
+  font-style: italic;
+	color: white;
+  opacity: 0;
+  transition: all 2s;
+}
+
+.chapitre-6 .periple .periple-5:hover { 
+  opacity: 1;
+}

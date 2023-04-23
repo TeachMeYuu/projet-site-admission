@@ -35,7 +35,7 @@ body {
   
 /*------------------------------------------------ TITRE CHAPITRE SECTION ------------------------------------------------*/
 
-.chapitre-4 .title h1 {
+.chapitre-5 .title h1 {
 	display: flex;
 	flex-wrap: wrap;
 	text-align: center;
@@ -48,7 +48,7 @@ body {
 
 /*------------------------------------------------ ASSISTANTE TEXT ------------------------------------------------*/
 
-.chapitre-4 .first-part {
+.chapitre-5 .first-part {
 	display: block;
 	flex-wrap: wrap;
 	padding: 0.1em 0em;
@@ -57,7 +57,7 @@ body {
 	background-repeat: no-repeat;
 }
 
-.chapitre-4 .first-part .ia {
+.chapitre-5 .first-part .ia {
 	display: flex;
 	flex-wrap: wrap;
 	position: absolute;
@@ -66,18 +66,17 @@ body {
 	width: 13%;
 }
 
-.chapitre-4 .first-part p {
+.chapitre-5 .first-part p {
 	display: flex;
 	flex-wrap: wrap;
 	margin-left: 15%;
-	margin-right: 20px;
 	text-align: justify;
 	font-family: 'Roboto';
 	font-size: 21px;
 	color: white;
 }
 
-.chapitre-4 .first-part li {
+.chapitre-5 .first-part li {
 	display: flex;
 	flex-wrap: wrap;
 	margin-left: 15%;
@@ -87,9 +86,13 @@ body {
 	color: white;
 }
 
+b {
+  color: #11dc1c  ;
+}
+
 /*------------------------------------------------ CHOIX CONFIG ------------------------------------------------*/
 
-.chapitre-4 .debut-reponse h3 {
+.chapitre-5 .debut-reponse h3 {
   display: flex;
   flex-wrap: wrap;
   text-align: center;
@@ -117,20 +120,20 @@ a {
 
 .rep-1 a:hover {
   border-radius: 10px;
-  background-color: #850b7f
+  background-color: #698808
 }
 
 .rep-2 a:hover {
   border-radius: 10px;
-  background-color: #854E0B
+  background-color: #088867
 }
 
 .rep-3 a:hover {
   border-radius: 10px;
-  background-color: #0B8511
+  background-color: #270888
 }
 
 .rep-4 a:hover {
   border-radius: 10px;
-  background-color: #0B4285
+  background-color: #880829
 }

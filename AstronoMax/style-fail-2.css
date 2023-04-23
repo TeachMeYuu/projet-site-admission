@@ -1,0 +1,90 @@
+/*------------------------------------------------ FONT SECTION ------------------------------------------------*/
+
+@font-face { /* Font AstronoMax */
+  font-family: 'ankh_sanctuaryregular';
+  src: url('fonts/ankhsanctuary-nrox4-webfont.woff2') format('woff2'),
+  url('fonts/ankhsanctuary-nrox4-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face { /* Font Jedi */
+  font-family: 'Star Jedi';
+  src: url('fonts/StarJedi.woff2') format('woff2'),
+  url('fonts/StarJedi.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+/*------------------------------------------------ HTML SECTION ------------------------------------------------*/
+
+html {
+  scroll-behavior: smooth;
+}
+
+/*------------------------------------------------ BODY SECTION ------------------------------------------------*/
+
+body {
+  position: relative;
+  height: 30%;
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.5),100%, transparent), url("https://zupimages.net/up/23/16/6hgr.jpg");
+  background-size: cover;
+  background-position: center;
+  font-family: 'Oswald', sans-serif;
+}
+
+/*------------------------------------------------ GAME OVER SECTION ------------------------------------------------*/
+
+.adventure-without-light .titre-aventure h1{ /* GAME OVER */
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+  justify-content: center;
+  border: solid;
+  margin-top: 12%;
+  margin-bottom: 2%;
+  font-size: 70px;
+  font-family: 'ankh_sanctuaryregular';
+  letter-spacing: 5px;
+  color: rgb(179, 3, 3);
+}
+
+
+.adventure-without-light .titre-aventure p { /* PARAGRAPHE */
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 3%;
+  justify-content: center;
+  text-align: center;
+  font-size: 25px;
+  font-family: 'Roboto';
+  color: white;
+}
+
+/*------------------------------------------------ NAV SECTION ------------------------------------------------*/
+
+a {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: auto;
+  margin-bottom: 3%;
+  padding: 1em 1em;
+  text-align: center;
+  justify-content: center;
+  text-decoration: none;
+  border-style: solid;
+  font-size: 20px;
+  color: white;
+  transition: all 1.25s;
+}
+
+.adventure-without-light .choix .oui a:hover {
+  border-radius: 10px;
+  background-color: rgb(6, 139, 28);
+}
+
+.adventure-without-light .choix .non a:hover {
+  border-radius: 10px;
+  background-color: rgb(139, 6, 6);
+}
